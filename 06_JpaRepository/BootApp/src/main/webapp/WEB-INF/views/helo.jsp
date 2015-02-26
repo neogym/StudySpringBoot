@@ -4,15 +4,23 @@
         "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Helo Page</title>
-<style>
-p.msg { border:solid 1px lightgray; padding:10px; }
-</style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Helo Page</title>
+    <style>
+        p.msg { border:solid 1px lightgray; padding:10px; }
+    </style>
 </head>
 <body>
-        <h1>Hello!</h1>
-        <p class="msg">${datas}</p>
+    <h1>Hello!</h1>
+    <p class="msg">${datas}</p>
+    <hr>
+    <form method="post" action="/post">
+        <input type="text" name="name"><br>
+        <input type="text" name="mail"><br>
+        <input type="text" name="tel"><br>
+        <input type="text" name="age"><br>
+        <input type="submit">
+    </form>
 </body>
 </html>
 
