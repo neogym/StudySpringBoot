@@ -1,14 +1,14 @@
 package com.tuyano.libro.bootapp;
- 
-import org.springframework.web.bind.annotation.RestController;
+
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
- 
-@RestController
+
+@Controller
 public class SampleController {
- 
-    @RequestMapping("/")
-    public String index() {
-        return "Spring Boot Sample!";
+
+    @RequestMapping("/helo")
+    public String helo() {
+        return "helo";
     }
  
 }
