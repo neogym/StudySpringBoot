@@ -6,10 +6,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Helo Page</title>
+<style>
+p.msg { border:solid 1px lightgray; padding:10px; }
+</style>
 </head>
 <body>
         <h1>Hello!</h1>
-        <p class="msg">${val}</p>
+        <p class="msg">${datas}</p>
 </body>
 </html>
 
