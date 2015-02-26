@@ -9,7 +9,7 @@
 </head>
 <body>
         <h1>Hello!</h1>
-        <p>これはサンプルのページです。</p>
+        <p class="msg">${val}</p>
 </body>
 </html>
 
